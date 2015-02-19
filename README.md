@@ -9,7 +9,9 @@ Syntaxe :
 	To Decrypt directory with password : EncryptFileSystem /E directory password
 
 Example :
+
 	EncryptFileSystem /D c:\temp password
+	
 	EncryptFileSystem /E c:\temp password
 	
 Future features :
