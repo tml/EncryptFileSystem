@@ -8,6 +8,10 @@ Syntaxe :
 	
 	To Decrypt directory with password : EncryptFileSystem /E directory password
 
+Example :
+	EncryptFileSystem /D c:\temp password
+	EncryptFileSystem /E c:\temp password
+	
 Future features :
 
 1) Generate a index file to have a link between the name of the encrypted file and the name of the decrypted file.
