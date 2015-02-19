@@ -12,4 +12,4 @@ Future features :
 
 1) Generate a index file to have a link between the name of the encrypted file and the name of the decrypted file.
 
-2) Be able to split big files into little encrypted files so that the downloads of these files is easier.
+2) Be able to split big files into little encrypted files so that downloading them is easier.
