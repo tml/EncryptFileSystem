@@ -4,25 +4,42 @@ The goal is to be able to put an entire file system in an insecure cloud and man
 For example, say you want to encrypt the directory "dir1" :
 
 dir1
+
   |
+  
   ---a.txt
+  
   ---b.txt
+  
   ---dir2
+  
      |
+     
      ---c.txt
+     
      ---d.exe
+     
      ---dir3
+     
         |
+        
         ---f.pdf
 
 The result will be :
 dir1
+
   |
+  
   ---0
+  
   ---1
+  
   ---2
+  
   ---3
+  
   ---4
+  
   ---5
   
 where the files 0, 1, 2, 3, 4 and 5 are the encrypted versions of a.txt, b.txt, c.txt, d.exe and f.pdf.
