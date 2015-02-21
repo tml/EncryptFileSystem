@@ -26,6 +26,7 @@ dir1
         ---f.pdf
 
 The result will be :
+
 dir1
 
   |
