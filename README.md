@@ -1,6 +1,19 @@
 # EncryptFileSystem
 Command line tool to encrypt/decrypt a whole file system.
-The goal is to be able to put an entire file system in an insecure cloud and manage it file by file.
+The goal is to be able to put an entire file system on an insecure cloud and manage it file by file.
+
+Syntaxe :
+	
+	To Encrypt directory with password : EncryptFileSystem /D directory password
+	
+	To Decrypt directory with password : EncryptFileSystem /E directory password
+
+Example :
+
+	EncryptFileSystem /D c:\temp password
+	
+	EncryptFileSystem /E c:\temp password
+
 For example, say you want to encrypt the directory "dir1" :
 
 dir1
@@ -25,38 +38,9 @@ dir1
         
         ---f.pdf
 
-The result will be :
+The result will be the directory dir1 with the 6 files named : 0, 1, 2, 3, 4 and 5. Theses files 0, 1, 2, 3, 4 and 5 are the encrypted versions of a.txt, b.txt, c.txt, d.exe and f.pdf. The path of each file is also encrypted so the tree of directories and the file's names are protected.
 
-dir1
 
-  |
-  
-  ---0
-  
-  ---1
-  
-  ---2
-  
-  ---3
-  
-  ---4
-  
-  ---5
-  
-where the files 0, 1, 2, 3, 4 and 5 are the encrypted versions of a.txt, b.txt, c.txt, d.exe and f.pdf.
-The path of each file is an information that is also encrypted in the files. So the tree of directories is protected.
-
-Syntaxe :
-	
-	To Encrypt directory with password : EncryptFileSystem /D directory password
-	
-	To Decrypt directory with password : EncryptFileSystem /E directory password
-
-Example :
-
-	EncryptFileSystem /D c:\temp password
-	
-	EncryptFileSystem /E c:\temp password
 	
 To do list :
 
