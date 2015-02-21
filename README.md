@@ -1,5 +1,5 @@
 # EncryptFileSystem
-Command line tool to encrypt/decrypt each file of a file system.
+Command line tool to encrypt/decrypt a whole file system.
 The goal is to be able to put an entire file system in an insecure cloud and manage it file by file.
 For example, say you want to encrypt the directory "dir1" :
 
@@ -58,7 +58,7 @@ Example :
 	
 	EncryptFileSystem /E c:\temp password
 	
-Future features :
+To do list :
 
 1) Generate a index file to have a link between the name of the encrypted file and the name of the decrypted file.
 
