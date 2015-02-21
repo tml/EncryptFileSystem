@@ -1,6 +1,5 @@
 # EncryptFileSystem
-Command line tool to encrypt/decrypt a whole file system.
-The goal is to be able to put an entire file system on an insecure cloud and manage it file by file.
+Command line tool to encrypt/decrypt a whole file system (filenames and directory tree are also encrypted). 
 
 Syntaxe :
 	
