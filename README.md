@@ -1,5 +1,6 @@
 # EncryptFileSystem
 Command line tool to encrypt/decrypt a whole file system (filenames and directory tree are also encrypted). 
+Toy project : don't use this for serious work. I currently work to improve it.
 
 Syntaxe :
 	
