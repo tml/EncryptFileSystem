@@ -48,3 +48,7 @@ To do list :
 2) Be able to split big files into little encrypted files so that downloading them is easier.
 
 3) Put the files attributes and informations (creation date, modification date, ...) in the encrypted files so that, when they are decrypted, the files recovers all their properties (for the moment, I don't know how to do it in C++).
+
+
+
+Thank you very much to Niels Ferguson, for his implementation of twofish.
