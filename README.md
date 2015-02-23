@@ -51,4 +51,4 @@ To do list :
 
 
 
-Thank you very much to Niels Ferguson, for his implementation of twofish.
+Thank you very much to Niels Ferguson, for his implementation of twofish and to Christophe Devine for SHA256.
