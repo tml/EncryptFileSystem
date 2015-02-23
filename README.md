@@ -49,6 +49,10 @@ To do list :
 
 3) Put the files attributes and informations (creation date, modification date, ...) in the encrypted files so that, when they are decrypted, the files recovers all their properties (for the moment, I don't know how to do it in C++).
 
+4) Add an authentification of the files.
+
+5) Use a cryptographically secure library for generation of random numbers.
+
 
 
 Thank you very much to Niels Ferguson for his implementation of twofish and to Christophe Devine for SHA256.
